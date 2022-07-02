@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "field": {
+        "title": "Classic Hamburger",
+        "price": "78",
+        "image": { "fields": { "file": { "url": "./image/product1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "field": {
+        "title": "Combo Classic Hamburger",
+        "price": "80",
+        "image": { "fields": { "file": { "url": "./image/product2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "field": {
+        "title": "Bacon Hamburger",
+        "price": "90",
+        "image": { "fields": { "file": { "url": "./image/product3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "field": {
+        "title": "Combo Bacon Hamburger",
+        "price": "100",
+        "image": { "fields": { "file": { "url": "./image/product4.jpg" } } }
+      }
+    }
+  ]
+}
