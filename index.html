@@ -20,7 +20,7 @@
       <nav class="main-navbar">
         <ul class="navbar-element">
           <li class="navbar-elements">
-            <div class="cart-items">0</div>
+            <div class="cart-items"></div>
 
             <span class="cart-anchor">
               <a href="#">
@@ -37,14 +37,18 @@
       <div class="cart">
         <div class="cart-overlay">
           <div class="close-cart">
-            <i class="fa fa-close"></i>
+            <button class="return-menu-btn">
+              <i class="fa fa-angle-double-left" style="font-size: 24px"></i>
+              Return Menu
+            </button>
           </div>
-          <h2>Your Cart</h2>
-          <h3>Items</h3>
+          <h2>Items in your bag</h2>
           <div class="cart-content"></div>
 
           <div class="cart-footer">
             <h3>Total Amount: $<span class="cart-total"></span></h3>
+            <button class="checkout-products">Go to Checkout</button>
+
             <button class="button-clear-products">Remove All Items</button>
           </div>
         </div>

@@ -76,9 +76,9 @@ class View {
     const div = document.createElement("div");
     div.classList.add("cart-items");
     div.innerHTML = `
-    <h3>Name: ${item.title}</h3>
-    <div><i class="fa fa-plus" style="font-size:16px" data-id=${item.id}></i>
-    </div>
+    <h3 class="cart-product-title">${item.title}</h3>
+    <i class="fa fa-plus" style="font-size:16px" data-id=${item.id}></i>
+   
 <h4 class="cart-amount">Amount:${item.amount}</h4>
 <i class="fa fa-minus" style="font-size:16px" data-id=${item.id}></i>
 
@@ -137,7 +137,6 @@ class View {
           Storage.saveCart(cart);
 
           this.setCartValues(cart);
-          // addAmount.nextElementSibling.innerText = product.amount;
           addAmount.nextElementSibling.innerText = `Amount:${product.amount}`;
         } else {
           cartContent.removeChild(addAmount.parentElement);
